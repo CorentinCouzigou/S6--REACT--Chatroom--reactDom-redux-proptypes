@@ -1,0 +1,73 @@
+.settings__container{
+width: 22rem;
+height: 12rem;
+
+padding: 1rem;
+background-color: #13405d;
+display: flex;
+position: fixed;
+right: 0rem;
+transition:2s ease-in-out;
+}
+.settingtrue {
+  transform:translate(18rem)
+}
+.buttonTrue {
+  transform:rotate(190deg);
+}
+.buttonFalse{
+  transform:rotate(45deg);
+}
+.setting__escape{
+  height: 1rem;
+  padding: 0.8rem;
+  border-radius: 50%;
+  background-color: white;
+  position: relative;
+  top: 0px;
+  left:0px;
+  border: none;
+  display: flex;
+  align-items: center;
+  font-size: 1.2rem;
+  margin-right: 1.5rem;
+  
+  transition:2s ease-in-out;
+  &:hover{
+    padding:1rem;
+  }
+}
+.settings__form{
+display: flex;
+flex-direction: column;
+justify-content: space-around;
+height: 90%;
+width: 60%;
+border: none;
+}
+.setting__inputMail{
+background-color: white;
+padding: 0.6rem;
+border-radius:0.4rem;
+width: 98%;
+border: none;
+
+}
+.setting__inputMDP{
+background-color: white;
+padding: 0.6rem;
+border-radius:0.4rem;
+width: 98%;
+border: none;
+}
+.setting__submit{
+padding:0.6rem;
+margin: 0 auto;
+width: 98%;
+background-color: #6212e2;
+border: none;
+border-radius:0.4rem;
+&:hover{
+  padding:0.8rem;
+}
+}

@@ -1,0 +1,24 @@
+.responseUser__container{
+  background-color:white;
+  padding:1.5em;
+  
+  font-size: 1.2em;
+  color: #13405d;
+  display: flex;
+  justify-content: space-between;
+
+}
+.responseUser__text{
+  border: none;
+  width: 70%;
+  font-size: 1.2em;
+}
+.responserUser__submit{
+  background-color:#13405d;
+  font-size: 0.9em;
+
+  color:white;
+  border:none;
+  border-radius: 2em;
+  padding:1em 1.5em;
+}

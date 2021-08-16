@@ -1,0 +1,30 @@
+body {
+  background-color: #13405d;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.app {
+  background-color:#bddcf0;
+  width: 110%;
+  min-width: 300px;
+  max-width: 600px;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.button__addSettings{
+position: fixed;
+padding: 0.5rem;
+right: 1rem;
+top:1rem;
+border-radius: 50%;
+font-size: 1.2rem;
+border: none;
+&:hover{
+  padding:0.6rem;
+}
+}
+

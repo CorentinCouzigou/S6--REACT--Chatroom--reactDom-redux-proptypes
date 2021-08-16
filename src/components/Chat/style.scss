@@ -1,0 +1,24 @@
+.chat__container{
+  padding:1rem;
+  min-width: 300px;
+  padding: 2rem;
+  height: 45rem;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  overflow: auto;
+}
+.chat__userName{
+  font-size: 1.2em;
+  margin-left: 1.5em;
+}
+.chat__userText{
+  background-color:white;
+  font-size: 1.2em;
+  width: fit-content;
+  border-radius: 3em;
+  padding:2rem;
+  color: #13405d;
+  margin-top: 0.5em;
+  margin-bottom: 3.5em;
+}
